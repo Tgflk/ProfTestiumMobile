@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="RegistrActivity"
+    android:background="@drawable/reg_main">
+
+    <TextView
+        android:id="@+id/tV_reg"
+        android:layout_width="279dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="@string/reg_tv"
+        android:textColor="@color/black"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/email_register"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV_reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:hint="@string/email_log_et"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="emailAddress" />
+
+    <EditText
+        android:id="@+id/user_register"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:hint="@string/usernsme"
+        tools:ignore="TouchTargetSizeCheck"
+        android:autofillHints="emailAddress" />
+
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:autofillHints="password"
+        android:hint="@string/password_log_et"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="252dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#54638F"
+        android:layout_below="@+id/checkBox1"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/btn_vhod_tx"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_register"
+        android:layout_marginTop="10dp"
+        android:text="@string/have"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_register"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/student_tx_che" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_register"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="82dp"
+        android:text="@string/student_tx_prep" />
+
+</RelativeLayout>

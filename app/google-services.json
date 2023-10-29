@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426154738338",
+    "project_id": "proftest-f3a36",
+    "storage_bucket": "proftest-f3a36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426154738338:android:215c49f815676377790dfb",
+        "android_client_info": {
+          "package_name": "com.example.proftest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPHPoW5SEykKPovOQH28f8NcfCCXfiBEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

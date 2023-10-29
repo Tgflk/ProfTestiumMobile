@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProfTest</string>
+    <string name="start_tx">Get started</string>
+    <string name="tv_vhod_log">ВХОД</string>
+    <string name="email_log_et">Email</string>
+    <string name="password_log_et">Password</string>
+    <string name="btn_vhod_tx">Войти</string>
+    <string name="creat_akk_tv">Создать аккаунт</string>
+    <string name="reg_tv">Регистрация</string>
+    <string name="have">У меня уже есть аккант</string>
+    <string name="usernsme">Usernsme</string>
+    <string name="student_tx_che">ученик</string>
+    <string name="student_tx_prep">преподаватель</string>
+</resources>
