@@ -13,6 +13,21 @@
         android:theme="@style/Theme.ProfTest"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityVebYes"
+            android:exported="false" />
+        <activity
+            android:name=".CreatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainCurse"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTarif"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
             android:name=".UserActivity"
             android:exported="false" />
         <activity

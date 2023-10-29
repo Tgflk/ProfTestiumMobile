@@ -10,11 +10,11 @@
 
     <TextView
         android:id="@+id/tV_sig"
-        android:layout_width="250dp"
+        android:layout_width="230dp"
         android:layout_height="55dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="475dp"
+        android:layout_marginTop="460dp"
         android:text="@string/tv_vhod_log"
         android:textSize="42sp"
         android:textColor="@color/black"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tV_sig"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="20dp"
         android:hint="@string/email_log_et"
         tools:ignore="TouchTargetSizeCheck"
         android:autofillHints="emailAddress" />
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/email_login"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:autofillHints="password"
         android:hint="@string/password_log_et"
         tools:ignore="TouchTargetSizeCheck" />
@@ -62,7 +62,7 @@
         android:id="@+id/register_txt"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/btn_login"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="@string/creat_akk_tv"
         android:textSize="20sp"
         android:textColor="@color/black"/>

@@ -11,4 +11,5 @@
     <string name="usernsme">Usernsme</string>
     <string name="student_tx_che">ученик</string>
     <string name="student_tx_prep">преподаватель</string>
+    <string name="veb_inf">На данном курсе, всего за месяц вы научитесь создавать привлекательный интерфейс сайта. Благодаря нашим кураторам, вы узнаете о всех фичах веб дизайна и по окончанию курса, создадите свой первый прототип веб-сайта</string>
 </resources>

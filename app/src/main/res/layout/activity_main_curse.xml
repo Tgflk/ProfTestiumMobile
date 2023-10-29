@@ -4,63 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserActivity"
-    android:background="@drawable/main_user_teach">
+    tools:context=".MainCurse"
+    android:background="@drawable/curs">
 
     <TextView
-        android:id="@+id/textView_name_stud"
-        android:layout_width="245dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="365dp"
+        android:id="@+id/textView_curs"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="56dp"
         android:fontFamily="@font/ubuntu_bold"
         android:gravity="center"
-        android:text="Имя Фамилия"
-        android:textColor="#54638F"
-        android:textSize="30sp"
+        android:text="Курсы"
+        android:textColor="#576DAD"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView_stud"
-        android:layout_width="245dp"
+        android:id="@+id/textView_curse_veb"
+        android:layout_width="224dp"
         android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Курс по веб-дизайну"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_curs" />
+
+    <TextView
+        android:id="@+id/textView_inf_veb"
+        android:layout_width="338dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="40dp"
         android:fontFamily="@font/ubuntu_medium"
         android:gravity="center"
-        android:text="учитель"
-        android:textColor="#54638F"
-        android:textSize="30sp"
+        android:text="@string/veb_inf"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_name_stud" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_curs" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="148dp"
+        android:text="Записаться"
+        android:backgroundTint="#576DAD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_curs" />
 
     <ImageButton
-        android:id="@+id/iB_home"
+        android:id="@+id/iB_home3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imB_tarif"
+        app:layout_constraintEnd_toStartOf="@+id/imB_tarif3"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/svg_home2"
         android:backgroundTint="#9EB0E5"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imB_tarif"
+        android:id="@+id/imB_tarif3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="12dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imB_curs"
+        app:layout_constraintEnd_toStartOf="@+id/imB_curs3"
         app:srcCompat="@drawable/tfrif_log2"
         android:backgroundTint="#9EB0E5"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/iB_user"
+        android:id="@+id/iB_user3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -71,27 +100,15 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imB_curs"
+        android:id="@+id/imB_curs3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         android:backgroundTint="#9EB0E5"
-        app:layout_constraintEnd_toStartOf="@+id/iB_user"
+        app:layout_constraintEnd_toStartOf="@+id/iB_user3"
         app:srcCompat="@drawable/course_svgrepo_com_2"
         tools:ignore="SpeakableTextPresentCheck" />
-
-    <Button
-        android:id="@+id/btn_creat"
-        android:layout_width="199dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="8dp"
-        android:text="Создать курс"
-        android:backgroundTint="#54638F"
-        android:textSize="17sp"
-        app:layout_constraintBottom_toTopOf="@+id/imB_tarif"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
